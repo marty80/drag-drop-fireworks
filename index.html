@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Star Burst</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drag and Drop Star Burst</h1>
+        <p>Drag the blue box into the target area to see a star burst animation!</p>
+        
+        <div class="boxes-container">
+            <div id="draggable" class="box draggable" draggable="true">
+                Drag Me
+            </div>
+            
+            <div id="target" class="box target">
+                Drop Here
+            </div>
+        </div>
+        
+        <div id="fireworks-container" class="fireworks-container"></div>
+    </div>
+
+    <script src="fireworks.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
